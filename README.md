@@ -16,11 +16,11 @@
         image: jackmo233/filebrowser:latest
         restart: unless-stopped
         container_name: filebrowser
-	ports:
-	  - 8080:80
-	volumes:
-	  - [confdir]:/config
-	  - [date01]:/opt/data01
-	  - [dateN]:/opt/dataN
+        ports:
+          - 8080:80
+        volumes:
+          - [confdir]:/config
+          - [date01]:/opt/data01
+          - [dateN]:/opt/dataN
 
 
